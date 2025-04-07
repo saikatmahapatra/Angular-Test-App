@@ -6,8 +6,8 @@ import { ErrorPageNotFoundComponent } from './error-page-not-found/error-page-no
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: '/home', component: HomeComponent},
-  {path: '/books', component: BooksComponent},
+  {path: 'home', component: HomeComponent},
+  {path: 'books', component: BooksComponent},
   {path: '**', component: ErrorPageNotFoundComponent}
 ];
 
